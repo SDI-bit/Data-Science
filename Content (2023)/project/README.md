@@ -36,6 +36,12 @@ Run the following script in PowerShell to install dependencies
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/sourabhkv/degoogle-forms/main/req_installer.ps1'))
 ```
 
+Start server
+```powershell
+cd degoogle-forms
+python manage.py runserver
+```
+
 ngrok(Sign-in required)
 
 Link generated is random collection of alphabets and numbers every link generated is unique<br>
