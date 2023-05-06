@@ -7,7 +7,8 @@
 ---
 
 ## WHY DEGOOGLED FORMS ?
-While Google forms is most used tool still it isn't good for many scenarios. Degoogled forms is **my take on what google forms can't.**<br>
+Send quality data to train model for Free.<br>
+
 ### What Google forms **CAN'T**
 - It is necessary to have internet to be able to use this tool.
 - The design customization  is very limited. Advanced users can change the design to use the tool with a greater number of purposes.
@@ -30,9 +31,10 @@ This project will focus on enhancing capabilities of google forms but without go
 - Data posted will be utilised to train model
 
 ## Requirements
-python 3.8+
-Django 4.16
-virtualenv
+Run the following script in PowerShell to install dependencies
+```powershell
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/sourabhkv/degoogle-forms/main/req_installer.ps1'))
+```
 
 ngrok(Sign-in required)
 
